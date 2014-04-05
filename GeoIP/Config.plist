@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Version</key>
+  <integer>2</integer>
+  <key>Extension Name</key>
+  <string>GeoIP</string>
+  <key>Extension Identifier</key>
+  <string>com.ahmadvaroqua.popclip.extension.geoip</string>
+  <key>Extension Description</key>
+  <string>Looks up the geo info for an IP address.</string>
+  <key>Actions</key>
+  <array>
+    <dict>
+      <key>URL</key>
+      <string>http://www.geoiptool.com/en/?IP={popclip text}</string>
+      <key>Image File</key>
+      <string>Globe-Icon.png</string>
+      <key>Title</key>
+      <string>GeoIP</string>
+      <key>Regular Expression</key>
+      <string>^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$</string>
+    </dict>
+  </array>
+</dict>
+</plist>
