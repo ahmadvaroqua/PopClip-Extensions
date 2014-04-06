@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
   <key>Actions</key>
   <array>
     <dict>
@@ -13,11 +14,52 @@
       <string>TimeStream</string>
     </dict>
   </array>
+
   <key>Extension Description</key>
   <string>Adds the string as a new time tracking activity in TimeStreamApp.com.</string>
+
   <key>Extension Identifier</key>
   <string>com.ahmadvaroqua.popclip.extension.timestream</string>
+
   <key>Extension Name</key>
   <string>TimeStream</string>
+
+  <key>Options</key>
+  <array>
+    <dict>
+
+      <key>Option Identifier</key>
+      <string>username</string>
+
+      <key>Option Label</key>
+      <string>Username</string>
+
+      <key>Option Type</key>
+      <string>string</string>
+
+    </dict>
+
+    <dict>
+
+      <key>Option Identifier</key>
+      <string>password</string>
+
+      <key>Option Label</key>
+      <string>Password</string>
+
+      <key>Option Type</key>
+      <string>string</string>
+
+    </dict>
+
+  </array>
+
+  <!--
+  <key>Options Script File</key>
+  <string>TimeStream-Auth.rb</string>
+  <key>Options Script Interpreter</key>
+  <string>/usr/bin/ruby</string>
+  -->
+
 </dict>
 </plist>
