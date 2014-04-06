@@ -10,7 +10,7 @@ logger = Logger.new('/Users/ahmadvaroqua/Downloads/development.log')
 
 # Get the username and password
 username = "ahmadvaroqua"
-password = "auasole"
+password = ""
 #username = ENV['POPCLIP_OPTION_USERNAME']
 #password = ENV['POPCLIP_OPTION_PASSWORD']
 
